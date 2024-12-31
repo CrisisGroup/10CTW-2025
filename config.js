@@ -44,6 +44,31 @@ var config = {
       ],
     },
     {
+      id: "SYRIA",
+      alignment: "left",
+      hidden: false,
+      title: "Eiusmod sunt proident exercitation minim occaecat consectetur.",
+      image: "",
+      description:
+        "Esse ad consectetur mollit eiusmod id elit cupidatat est aliqua ex voluptate. Est laboris qui deserunt pariatur ullamco ex aute sit voluptate reprehenderit cupidatat. Laborum tempor dolore proident et eu amet enim aliqua cupidatat reprehenderit. Consectetur ea non voluptate pariatur est ipsum aliqua anim est aliqua voluptate. Mollit ad sit aliqua labore laborum eu. Laborum non incididunt et ipsum deserunt ut veniam dolore aliquip laborum ad voluptate dolor. Ullamco est Lorem ex occaecat aliquip." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [38.41918, 35.04736],
+        zoom: 6.5,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.4,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+
+      ],
+      onChapterExit: [
+
+      ],
+    },
+    {
       id: "SUDAN",
       alignment: "left",
       hidden: false,
@@ -159,110 +184,6 @@ var config = {
       ],
     },
     {
-      id: "TAIWAN",
-      alignment: "center",
-      hidden: false,
-      title: "Dolor reprehenderit dolore exercitation sint nulla cillum dolor consectetur dolor aute.",
-      image: "",
-      description:
-        "Adipisicing proident velit anim reprehenderit ad eiusmod laborum anim ullamco. Eiusmod velit laborum voluptate ex duis deserunt eiusmod adipisicing. Nisi commodo esse ad ad proident irure veniam culpa cupidatat anim. Irure exercitation consectetur aliquip consequat fugiat voluptate deserunt ullamco incididunt veniam culpa duis consequat nulla. Ad velit pariatur proident anim ea elit aute. Cupidatat eiusmod elit et incididunt tempor dolore labore nisi consequat non deserunt dolor excepteur nostrud." + '<div class="spacer"></div>' + 
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
-      location: {
-        center: [118.50520, 24.05881],
-        zoom: 6,
-        pitch: 0,
-        bearing: 0,
-        speed: 1,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-
-      ],
-      onChapterExit: [],
-    },
-    {
-      id: "KOREA",
-      alignment: "left",
-      hidden: false,
-      title: "Incididunt reprehenderit officia sunt Lorem non.",
-      image: "",
-      description:
-        "Elit fugiat sunt aliqua aute mollit. Nisi minim id veniam do exercitation labore. Minim adipisicing elit laborum officia in in eu eu minim aute. Deserunt quis pariatur nostrud incididunt do consectetur." + "<div class='spacer'></div>" + "Eiusmod enim deserunt duis Lorem. Commodo occaecat ipsum et sunt sint cupidatat ut sit laboris est consequat sint commodo nisi. Occaecat esse reprehenderit laboris esse. Aute in sint excepteur qui voluptate cillum veniam reprehenderit eu nostrud amet ex ipsum enim." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [126.09752, 37.75520],
-        zoom: 5.5,
-        pitch: 0,
-        bearing: 0,
-        speed: 0.4,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-
-      ],
-      onChapterExit: [
-
-      ],
-    },
-    {
-      id: "MYANMAR",
-      alignment: "left",
-      hidden: false,
-      title: "Id consectetur irure consequat cupidatat adipisicing cillum laboris cillum excepteur occaecat.",
-      image: "",
-      description:
-        "Eu exercitation pariatur voluptate cupidatat aliqua irure ullamco aliquip irure in exercitation do ipsum eu. Ut tempor dolor aute sunt. Velit minim nostrud consectetur deserunt. Eiusmod nulla culpa cillum amet ullamco irure adipisicing aliqua consequat." + "<div class='spacer'></div>" + "Et ullamco sit elit laboris amet esse fugiat." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
-      location: {
-        center: [96.19656, 21.07645],
-        zoom: 4.6,
-        pitch: 0,
-        bearing: 0,
-        speed: 0.6,
-      },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-
-      ],
-      onChapterExit: [
-
-      ],
-    },
-    {
-      id: "SAHEL",
-      alignment: "center",
-      hidden: false,
-      title:
-        "Tempor non occaecat Lorem adipisicing.",
-      image: "",
-      description:
-        "Ipsum magna nostrud minim Lorem elit. Magna est Lorem ut exercitation elit consectetur. Qui culpa sunt veniam pariatur et occaecat nulla aute occaecat ad reprehenderit labore cillum. Occaecat exercitation qui aliqua amet fugiat occaecat pariatur nisi mollit. Ut ad ea exercitation eiusmod." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120492" target="_blank">&#8594; [Read more]</a>' + '<br /><br />' + '<img src="images/terror_aid.png" /><br /><br />',
-        location: {
-          center: [2.23322, 15.44417],
-          zoom: 3.75,
-          pitch: 0,
-          bearing: 0,
-          speed: 0.6,
-        },
-      mapAnimation: "flyTo",
-      rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [
-
-      ],
-      onChapterExit: [
-
-      ],
-    },
-    {
       id: "HAITI",
       alignment: "left",
       hidden: false,
@@ -313,16 +234,45 @@ var config = {
       ],
     },
     {
-      id: "SYRIA",
+      id: "MYANMAR",
       alignment: "left",
       hidden: false,
-      title: "Eiusmod sunt proident exercitation minim occaecat consectetur.",
+      title: "Id consectetur irure consequat cupidatat adipisicing cillum laboris cillum excepteur occaecat.",
       image: "",
       description:
-        "Esse ad consectetur mollit eiusmod id elit cupidatat est aliqua ex voluptate. Est laboris qui deserunt pariatur ullamco ex aute sit voluptate reprehenderit cupidatat. Laborum tempor dolore proident et eu amet enim aliqua cupidatat reprehenderit. Consectetur ea non voluptate pariatur est ipsum aliqua anim est aliqua voluptate. Mollit ad sit aliqua labore laborum eu. Laborum non incididunt et ipsum deserunt ut veniam dolore aliquip laborum ad voluptate dolor. Ullamco est Lorem ex occaecat aliquip." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        "Eu exercitation pariatur voluptate cupidatat aliqua irure ullamco aliquip irure in exercitation do ipsum eu. Ut tempor dolor aute sunt. Velit minim nostrud consectetur deserunt. Eiusmod nulla culpa cillum amet ullamco irure adipisicing aliqua consequat." + "<div class='spacer'></div>" + "Et ullamco sit elit laboris amet esse fugiat." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [38.41918, 35.04736],
-        zoom: 6.5,
+        center: [96.19656, 21.07645],
+        zoom: 4.6,
+        pitch: 0,
+        bearing: 0,
+        speed: 0.6,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+
+      ],
+      onChapterExit: [
+
+      ],
+    },
+    {
+      id: "KOREA",
+      alignment: "left",
+      hidden: false,
+      title: "Incididunt reprehenderit officia sunt Lorem non.",
+      image: "",
+      description:
+        "Elit fugiat sunt aliqua aute mollit. Nisi minim id veniam do exercitation labore. Minim adipisicing elit laborum officia in in eu eu minim aute. Deserunt quis pariatur nostrud incididunt do consectetur." + "<div class='spacer'></div>" + "Eiusmod enim deserunt duis Lorem. Commodo occaecat ipsum et sunt sint cupidatat ut sit laboris est consequat sint commodo nisi. Occaecat esse reprehenderit laboris esse. Aute in sint excepteur qui voluptate cillum veniam reprehenderit eu nostrud amet ex ipsum enim." +
+        '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
+      location: {
+        center: [126.09752, 37.75520],
+        zoom: 5.5,
         pitch: 0,
         bearing: 0,
         speed: 0.4,
@@ -336,6 +286,30 @@ var config = {
       onChapterExit: [
 
       ],
+    },
+    {
+      id: "TAIWAN",
+      alignment: "center",
+      hidden: false,
+      title: "Dolor reprehenderit dolore exercitation sint nulla cillum dolor consectetur dolor aute.",
+      image: "",
+      description:
+        "Adipisicing proident velit anim reprehenderit ad eiusmod laborum anim ullamco. Eiusmod velit laborum voluptate ex duis deserunt eiusmod adipisicing. Nisi commodo esse ad ad proident irure veniam culpa cupidatat anim. Irure exercitation consectetur aliquip consequat fugiat voluptate deserunt ullamco incididunt veniam culpa duis consequat nulla. Ad velit pariatur proident anim ea elit aute. Cupidatat eiusmod elit et incididunt tempor dolore labore nisi consequat non deserunt dolor excepteur nostrud." + '<div class="spacer"></div>' + 
+        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
+      location: {
+        center: [118.50520, 24.05881],
+        zoom: 6,
+        pitch: 0,
+        bearing: 0,
+        speed: 1,
+      },
+      mapAnimation: "flyTo",
+      rotateAnimation: false,
+      callback: "",
+      onChapterEnter: [
+
+      ],
+      onChapterExit: [],
     },
     {
       id: "OUTRO",
