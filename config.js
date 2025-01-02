@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Conflicts to Watch in 2025</h1><p class="hedp">Enim exercitation magna aute proident commodo elit officia anim Lorem cillum commodo sit Lorem nulla. Aute cillum et veniam duis commodo. Ad aute fugiat ipsum nostrud culpa id mollit minim consequat culpa tempor. Mollit in velit officia aute enim sit.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Conflicts to Watch in 2025</h1><p class="hedp">Donald Trump’s return to the White House adds more unpredictability to an already volatile world. Risks abound, but opportunities for deals may arise as well.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -23,9 +23,8 @@ var config = {
       title: "Dolore dolore in amet cupidatat ipsum qui quis consequat occaecat.",
       image: "",
       description:
-        "Sint do eiusmod pariatur minim irure dolore qui labore sunt. Pariatur culpa esse ad nisi nostrud incididunt. Cupidatat excepteur ullamco ea minim tempor labore cupidatat non exercitation in dolore ullamco pariatur. Dolor Lorem est reprehenderit sit nulla minim aute reprehenderit pariatur reprehenderit eu elit. Dolore ipsum officia ex culpa ad minim voluptate. Culpa mollit enim excepteur laborum adipisicing sint eiusmod sint cillum est sit incididunt ex veniam. Mollit deserunt officia veniam velit ad ut dolor." +
-        "<br /><br />" +
-        "<strong>Scroll down to continue. &#8595;</strong>",
+        "Donald Trump will inherit a world on edge when he returns to the U.S. presidency. Whether his policies will mean more war or deal-making is hard to foresee. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
+        "<div class='spacer'></div>" + "<strong>Or scroll down to continue. &#8595;</strong>",
       location: {
         center: [0, 0],
         zoom: 3,
@@ -47,10 +46,10 @@ var config = {
       id: "SYRIA",
       alignment: "left",
       hidden: false,
-      title: "Eiusmod sunt proident exercitation minim occaecat consectetur.",
+      title: "Syria",
       image: "",
       description:
-        "Esse ad consectetur mollit eiusmod id elit cupidatat est aliqua ex voluptate. Est laboris qui deserunt pariatur ullamco ex aute sit voluptate reprehenderit cupidatat. Laborum tempor dolore proident et eu amet enim aliqua cupidatat reprehenderit. Consectetur ea non voluptate pariatur est ipsum aliqua anim est aliqua voluptate. Mollit ad sit aliqua labore laborum eu. Laborum non incididunt et ipsum deserunt ut veniam dolore aliquip laborum ad voluptate dolor. Ullamco est Lorem ex occaecat aliquip." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        "The murderous Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet after its bloody civil war. But plenty could go wrong." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [38.41918, 35.04736],
         zoom: 6.5,
@@ -72,11 +71,11 @@ var config = {
       id: "SUDAN",
       alignment: "left",
       hidden: false,
-      title: "Qui qui occaecat sit consectetur ut sint ex esse proident pariatur eiusmod aliquip.",
+      title: "Sudan",
       image: "",
       description:
-        "Ipsum incididunt laborum veniam velit proident nulla excepteur irure aliquip minim ex. Ex anim proident proident consectetur quis ea laboris. Ullamco occaecat duis minim mollit do ut occaecat cupidatat Lorem aute sunt aliqua qui veniam. Voluptate laboris duis eiusmod et qui qui ex esse eiusmod sunt aute eiusmod ipsum ut. Qui culpa dolor aute nostrud laborum incididunt minim nostrud exercitation incididunt cillum laboris ut. Fugiat est ad duis incididunt culpa laboris aute exercitation ad velit velit eiusmod non." +
-        '<br /><br /><a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120464" target="_blank">&#8594; [Read more]</a>',
+        "The war in Sudan is killing, uprooting and starving more people than any other. If nothing is done, a violent fracture with reverberations throughout the region seems increasingly likely. Ending the conflict needs to be a higher priority for outside powers." +
+        '<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#sudan" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [35.08351, 32.23019],
         zoom: 7.5,
@@ -102,12 +101,12 @@ var config = {
       id: "UKR",
       alignment: "left",
       hidden: false,
-      title: "Non sunt enim mollit Lorem in esse aliqua.",
+      title: "Ukraine and European Security",
       image: "",
       description:
-        "Laborum nisi reprehenderit in ad. Nostrud aliqua labore deserunt magna in velit velit esse. Reprehenderit ipsum sunt proident fugiat elit consectetur enim do tempor. Amet amet aute laboris in. Reprehenderit aute id qui ut aliquip dolor ipsum. Amet ut sit pariatur exercitation. Incididunt ipsum sint dolor esse magna velit dolore." +
+        "Trump says he’ll end the Ukraine war through talks with Russian President Vladimir Putin. But a viable peace deal is hard to envision – and, no matter what happens, Europe faces an uncertain future caught between Moscow and an unpredictable Washington." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120468" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#ukraine" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [30.99252, 51.17468],
         zoom: 5,
@@ -129,12 +128,12 @@ var config = {
       id: "ISRPAL",
       alignment: "center",
       hidden: false,
-      title: "Officia dolor dolore consectetur ipsum culpa aliquip.",
+      title: "Israel-Palestine",
       image: "",
       description:
-        "Laboris deserunt duis labore sit officia ipsum incididunt mollit. Incididunt minim exercitation aute officia exercitation nisi sunt aute. Est laboris sint minim enim anim. Nisi quis adipisicing magna voluptate. Anim officia nulla excepteur sit est ad elit magna." +
+        "Israel’s post-October 7 offensive, aimed at destroying Hamas, has laid waste to Gaza, with upwards of 45,000 known dead and thousands more missing. U.S. diplomatic failures have let the Israeli far right’s logic reign. It is far too plausible that the same happens in the West Bank and in the Israeli-Palestinian conflict writ large." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120472" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/myanmar.jpg' /><p class='photocaption'>A member of the ethnic armed group Ta’ang National Liberation Army (TNLA) keeping watch as people buy groceries at a street market in Kyaukme in Myanmar’s northern Shan State. July 2024. STR / AFP.</p>",
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#israel" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [95.588857, 22.595168],
         zoom: 3,
@@ -156,12 +155,12 @@ var config = {
       id: "IRAN",
       alignment: "left",
       hidden: false,
-      title: "Excepteur dolore consequat dolore veniam ex anim nostrud excepteur adipisicing nulla velit.",
+      title: "Iran vs. U.S. and Israel",
       image: "",
       description:
-        "Amet veniam dolore ex adipisicing nisi incididunt nostrud commodo esse ut et ut sit est. Quis nulla ullamco ullamco occaecat enim aute mollit aliquip dolor amet. Eiusmod labore do quis ad ipsum labore culpa nostrud anim. Veniam adipisicing in minim id excepteur cupidatat ex aliquip tempor non. Consectetur ut sunt enim consequat voluptate qui officia mollit minim dolore ad." +
+        "Following Israel’s hammering of Hizbollah in Lebanon, and the Assad regime’s fall in Syria, Iran looks more vulnerable than at any time in decades. U.S. and Israeli hawks see an opportunity to hit Iranian nuclear research sites or even topple the government. A better bet would be talks aimed at defining limits to Tehran’s nuclear program." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120476" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#iran" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-72.277873, 18.57867],
         zoom: 16.5,
@@ -187,10 +186,10 @@ var config = {
       id: "HAITI",
       alignment: "left",
       hidden: false,
-      title: "Esse et officia tempor minim in excepteur nostrud et consequat minim.",
+      title: "Haiti",
       image: "",
       description:
-        "Adipisicing aliqua exercitation aute occaecat culpa. Nisi aute do nostrud anim Lorem fugiat. Irure excepteur laboris aliquip do ad nulla Lorem aliqua. Irure non cillum anim amet nostrud est cupidatat irure excepteur id. Esse aliqua aliqua reprehenderit veniam id ullamco occaecat qui non sit. Eu occaecat amet adipisicing sit magna aliqua deserunt excepteur velit laboris qui consequat aliquip incididunt. Minim dolor eiusmod ea non sit sunt." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120498" target="_blank">&#8594; [Read more]</a>',
+        "Many Haitians thought a new government and the Kenya-led security mission might be able to rein in the criminal gangs running rampant in the country. Those hopes are dashed. Haiti’s government is now calling for UN peacekeepers, an idea Trump seems unlikely to embrace, though he may think again once in office.  " + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#haiti" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-73.33375, 18.98953],
         zoom: 7.5,
@@ -212,10 +211,10 @@ var config = {
       id: "MEXICO",
       alignment: "left",
       hidden: false,
-      title: "Sunt sint tempor ad nostrud non aliquip tempor labore aute nisi ex.",
+      title: "U.S.-Mexico",
       image: "",
       description:
-        "Laborum cupidatat eu nostrud dolor in ad veniam aliquip ullamco incididunt deserunt sunt. Eiusmod eu cillum quis sunt. Cillum non reprehenderit consectetur anim occaecat aliqua nisi laborum irure enim culpa proident est laborum. Consectetur ipsum consequat mollit eu exercitation commodo ea ullamco excepteur labore irure non. Irure esse aute aliqua ut velit exercitation qui sint ea eu proident eiusmod." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        "During the U.S. presidential campaign, Trump promised to slap high tariffs on Mexican goods and send back millions of migrants. He even hinted at bombing fentanyl labs in Mexico. These are all bad ideas that would tank relations between two interdependent neighbors." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-105.28159, 29.28666],
         zoom: 5,
@@ -237,12 +236,12 @@ var config = {
       id: "MYANMAR",
       alignment: "left",
       hidden: false,
-      title: "Id consectetur irure consequat cupidatat adipisicing cillum laboris cillum excepteur occaecat.",
+      title: "Myanmar",
       image: "",
       description:
-        "Eu exercitation pariatur voluptate cupidatat aliqua irure ullamco aliquip irure in exercitation do ipsum eu. Ut tempor dolor aute sunt. Velit minim nostrud consectetur deserunt. Eiusmod nulla culpa cillum amet ullamco irure adipisicing aliqua consequat." + "<div class='spacer'></div>" + "Et ullamco sit elit laboris amet esse fugiat." +
+        "Midway through 2024, Myanmar’s military regime appeared to be teetering, with insurgents having taken control of many areas along the country’s borders. China has since thrown the junta a lifeline. But elections the regime plans for 2025 offer no vision for a better future and instead promise more bloodshed." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120488" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#myanmar" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [96.19656, 21.07645],
         zoom: 4.6,
@@ -264,12 +263,11 @@ var config = {
       id: "KOREA",
       alignment: "left",
       hidden: false,
-      title: "Incididunt reprehenderit officia sunt Lorem non.",
+      title: "Korean Penninsula",
       image: "",
       description:
-        "Elit fugiat sunt aliqua aute mollit. Nisi minim id veniam do exercitation labore. Minim adipisicing elit laborum officia in in eu eu minim aute. Deserunt quis pariatur nostrud incididunt do consectetur." + "<div class='spacer'></div>" + "Eiusmod enim deserunt duis Lorem. Commodo occaecat ipsum et sunt sint cupidatat ut sit laboris est consequat sint commodo nisi. Occaecat esse reprehenderit laboris esse. Aute in sint excepteur qui voluptate cillum veniam reprehenderit eu nostrud amet ex ipsum enim." +
-        '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120484" target="_blank">&#8594; [Read more]</a>',
+        "The year 2024 began with a surprising speech from Kim Jong-un, in which he dropped North Korea’s decades-old policy of peaceful unification with South Korea. It ended with Pyongyang ratifying a mutual defence pact with Moscow and, in Seoul, a botched coup attempt by President Yoon Suk-yeol. The peninsula is set for an edgy 2025." + '<div class="spacer"></div>' +
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#korea" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [126.09752, 37.75520],
         zoom: 5.5,
@@ -291,11 +289,11 @@ var config = {
       id: "TAIWAN",
       alignment: "center",
       hidden: false,
-      title: "Dolor reprehenderit dolore exercitation sint nulla cillum dolor consectetur dolor aute.",
+      title: "China-U.S.",
       image: "",
       description:
-        "Adipisicing proident velit anim reprehenderit ad eiusmod laborum anim ullamco. Eiusmod velit laborum voluptate ex duis deserunt eiusmod adipisicing. Nisi commodo esse ad ad proident irure veniam culpa cupidatat anim. Irure exercitation consectetur aliquip consequat fugiat voluptate deserunt ullamco incididunt veniam culpa duis consequat nulla. Ad velit pariatur proident anim ea elit aute. Cupidatat eiusmod elit et incididunt tempor dolore labore nisi consequat non deserunt dolor excepteur nostrud." + '<div class="spacer"></div>' + 
-        '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120480" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + "<img src='images/colombia.jpg' /><p class='photocaption'>A view of Tumaco, in Nariño, Colombia, where factions of FARC dissidents have clashed to control the illicit economy. January 2023. CRISIS GROUP / Elizabeth Dickinson</p>",
+        "Competition between the world’s two foremost powers continues to intensify. Tariffs, Taiwan and Chinese ambitions in the South China Sea are among the potential flashpoints with Trump entering office. Meanwhile, the U.S. president-elect’s dim view of alliances rattles Asia almost as much as it does Europe." + '<div class="spacer"></div>' + 
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#china" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [118.50520, 24.05881],
         zoom: 6,
@@ -313,12 +311,12 @@ var config = {
     },
     {
       id: "OUTRO",
-      alignment: "left",
+      alignment: "center",
       hidden: false,
-      title: "Eiusmod ea dolor laborum fugiat cupidatat consequat dolor deserunt.",
+      title: "Dive Deeper with Our Analysis",
       image: "",
       description:
-        "Exercitation aliqua eu ullamco veniam cillum nisi nulla exercitation do consequat. Fugiat excepteur deserunt eiusmod fugiat incididunt minim consequat sit deserunt commodo ipsum. Culpa aute ut eiusmod id culpa ullamco enim aliqua proident aliquip ut id non. Excepteur irure exercitation sunt amet sunt excepteur id adipisicing eiusmod consequat veniam culpa. Minim ad mollit cupidatat enim quis non sunt. Quis cupidatat aliqua sit labore ea. Pariatur excepteur tempor sunt elit ex esse minim." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/sb12-ten-challenges-un-2024-2025#120502" target="_blank">&#8594; [Read more]</a>',
+        'These are Crisis Group’s ten conflicts to watch in 2025. <a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025" target="_blank">&#8594; Read the full article here.</a>',
       location: {
         center: [0, 0],
         zoom: 2,
