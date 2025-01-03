@@ -20,7 +20,7 @@ var config = {
       id: "INTRO",
       alignment: "left",
       hidden: false,
-      title: "Dolore dolore in amet cupidatat ipsum qui quis consequat occaecat.",
+      title: "Global Conflicts",
       image: "",
       description:
         "Donald Trump will inherit a world on edge when he returns to the U.S. presidency. Whether his policies will mean more war or deal-making is hard to foresee. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
