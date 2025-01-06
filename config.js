@@ -79,10 +79,58 @@ var config = {
       rotateAnimation: false,
       callback: "disableFreetime",
       onChapterEnter: [
-
+        {
+          layer: "syr",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "syr_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "syr_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "damascus_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "damascus_dot",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "syr",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "syr_border",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "syr_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "damascus_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "damascus_dot",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -109,10 +157,58 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-       
+        {
+          layer: "khartoum_dot",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "khartoum_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sud_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "sudan",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-        
+        {
+          layer: "khartoum_dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "khartoum_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sud_border",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "sudan",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -136,10 +232,68 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        
+        {
+          layer: "kyiv_dot",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "kyiv_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "ukr_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "ukraine_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "ukraine",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "russia",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-        
+        {
+          layer: "kyiv_dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "kyiv_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ukr_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ukraine_border",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ukraine",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "russia",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -172,10 +326,30 @@ var config = {
           duration: 2000,
           opacity: 0.7,
         },
+        {
+          layer: "palestine",
+          duration: 2000,
+          opacity: 0.7,
+        },
+        {
+          layer: "west_bank_areas",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
           layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "palestine",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "west_bank_areas",
           duration: 2000,
           opacity: 0,
         },
@@ -206,10 +380,58 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-        
+        {
+          layer: "tehran_dot",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "tehran_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "iran_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "iran_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "iran",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-        
+        {
+          layer: "tehran_dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "tehran_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "iran_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "iran_border",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "iran",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -231,10 +453,38 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "Haiti",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "ayiti_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "ayiti",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "Haiti",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ayiti_border",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ayiti",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -261,10 +511,30 @@ var config = {
           duration: 2000,
           opacity: 0.7,
         },
+        {
+          layer: "us_mex_labels",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "us_mex_border",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
           layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "us_mex_labels",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "us_mex_border",
           duration: 2000,
           opacity: 0,
         },
@@ -291,10 +561,38 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "myanmar",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "myanmar_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "myanmar_label",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "myanmar",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "myanmar_border",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "myanmar_label",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -317,10 +615,48 @@ var config = {
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
-
+        {
+          layer: "rok",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "dprk",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "kor_capitals",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "kor_capitals_dots",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "rok",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "dprk",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "kor_capitals",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "kor_capitals_dots",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -341,11 +677,31 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [
-
+        {
+          layer: "scs_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "9dash",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
-      onChapterExit: [],
+      onChapterExit: [
+        {
+          layer: "scs_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "9dash",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "OUTRO",
@@ -364,12 +720,30 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
-      callback: "",
+      callback: "enableFreetime",
       onChapterEnter: [
-
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0.7,
+        },
+        {
+          layer: "CONFLICT_LABELS",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "CONFLICT_LABELS",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
   ],
