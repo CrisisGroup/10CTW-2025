@@ -26,20 +26,38 @@ var config = {
         "In unsettled times, Donald Trump’s return to the White House looks set to shake things up further. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
         "<div class='spacer'></div>" + "<strong>Or scroll down to continue. &#8595;</strong>",
       location: {
-        center: [0, 0],
+        center: [-80.14862, 30.91766],
         zoom: 3,
-        pitch: 0,
-        bearing: 0,
+        pitch: 12,
+        bearing: 21,
         speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
       callback: "enableFreetime",
       onChapterEnter: [
-       
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0.7,
+        },
+        {
+          layer: "CONFLICT_LABELS",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
-        
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "CONFLICT_LABELS",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
@@ -147,9 +165,21 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
-      onChapterEnter: [],
-      onChapterExit: [],
+      callback: "roadDraw",
+      onChapterEnter: [
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0.7,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+      ],
     },
     {
       id: "IRAN",
@@ -224,12 +254,20 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "roadDraw",
       onChapterEnter: [
-
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0.7,
+        },
       ],
       onChapterExit: [
-
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
     },
     {
