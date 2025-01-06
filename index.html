@@ -323,7 +323,7 @@
 		var scroller = scrollama();
 
 		map.on('load', () => {
-			map.addSource('yemenroad', {
+			map.addSource('borderDraw', {
 				type: 'geojson',
 				lineMetrics: true,
 				data:
@@ -4213,7 +4213,7 @@
 			map.addLayer({
 				id: 'road-draw-line',
 				type: 'line',
-				source: 'yemenroad',
+				source: 'borderDraw',
 				paint: {
 					"line-color": "#a33339",
 					"line-width": 8,
@@ -4238,6 +4238,7 @@
 
 				// Reduce the visible length of the line by using a line-gradient to cutoff the line
 				// animationPhase is a value between 0 and 1 that reprents the progress of the animation
+				map.setPaintProperty('road-draw-line', 'line-opacity', 1);
 				map.setPaintProperty("road-draw-line", "line-gradient", [
 					"step",
 					["line-progress"],

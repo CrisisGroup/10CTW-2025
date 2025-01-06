@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm4skd1ti000601qwf0ine02p",
+  style: "mapbox://styles/daltonwb/cm5le6q8b006401qofk1bcn62",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -45,6 +45,11 @@ var config = {
           layer: "CONFLICT_LABELS",
           duration: 2000,
           opacity: 1,
+        },
+        {
+          layer: "road-draw-line",
+          duration: 1,
+          opacity: 0,
         },
       ],
       onChapterExit: [
@@ -104,6 +109,11 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
         {
@@ -149,8 +159,8 @@ var config = {
         bearing: 0,
         speed: 0.7,
         bbox: [
-          [20.53717, 7.62920],
-          [36.78160, 21.10942]
+          [14.79583, 4.94522],
+          [46.99699, 24.28207]
         ]
       },
       mapAnimation: "flyTo",
@@ -319,13 +329,8 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "roadDraw",
+      callback: "",
       onChapterEnter: [
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0.7,
-        },
         {
           layer: "palestine",
           duration: 2000,
@@ -338,11 +343,6 @@ var config = {
         },
       ],
       onChapterExit: [
-        {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
         {
           layer: "palestine",
           duration: 2000,
@@ -372,8 +372,8 @@ var config = {
         bearing: 0,
         speed: 0.9,
         bbox: [
-          [48.44556, 27.02211],
-          [61.95628, 35.51153]
+          [39.16608, 21.62529],
+          [69.09304, 41.48343]
       ]
       },
       mapAnimation: "flyTo",
@@ -497,7 +497,7 @@ var config = {
         "During the U.S. presidential campaign, Trump promised to slap high tariffs on Mexican goods and send back millions of migrants. Within his Republican party, some suggest the U.S. should bomb fentanyl labs in Mexico. Those policies would tank relations between two interdependent neighbours." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-105.28159, 29.28666],
-        zoom: 5,
+        zoom: 4.5,
         pitch: 36,
         bearing: 0,
         speed: 0.4,
@@ -507,34 +507,24 @@ var config = {
       callback: "roadDraw",
       onChapterEnter: [
         {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0.7,
-        },
-        {
           layer: "us_mex_labels",
           duration: 2000,
           opacity: 1,
         },
         {
-          layer: "us_mex_border",
+          layer: "road-draw-line",
           duration: 2000,
           opacity: 1,
         },
       ],
       onChapterExit: [
         {
-          layer: "road-draw-line",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
           layer: "us_mex_labels",
           duration: 2000,
           opacity: 0,
         },
         {
-          layer: "us_mex_border",
+          layer: "road-draw-line",
           duration: 2000,
           opacity: 0,
         },
@@ -674,6 +664,10 @@ var config = {
         pitch: 0,
         bearing: 0,
         speed: 1,
+        bbox: [
+        [98.39269, 3.74901],
+        [139.23495, 27.26249]
+      ]
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,

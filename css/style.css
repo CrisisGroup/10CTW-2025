@@ -130,7 +130,7 @@ a:visited {
   color: #FFF;
   padding: 0 30% 0 30%;
   font-size: 1.6em;
-  letter-spacing: .01em;
+  letter-spacing: .04em;
   line-height: 1.5em;
   font-style: italic;
 }
@@ -420,7 +420,7 @@ h5 {
 }
 
 #INTRO .light {
-  margin-top: 100%;
+  margin-top: 110%;
 }
 
 #END .light {
