@@ -9,7 +9,7 @@ var config = {
   projection: "globe",
   use3dTerrain: false,
   title:
-    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Conflicts to Watch in 2025</h1><p class="hedp">Donald Trump’s return to the White House adds more unpredictability to an already volatile world. Risks abound, but opportunities for deals may arise as well.</p>' +
+    '<a href="https://www.crisisgroup.org" target="_blank"><img id="icg" src="images/icg-oj.png" /></a><br /><video id="background-video" autoplay loop muted poster="images/poster.jpg"><source src="images/aerial.mp4" type="video/mp4"></video><h1>Ten Conflicts to Watch in 2025</h1><p class="hedp">Donald Trump’s return to the White House adds more unpredictability to an already volatile world. There are plenty of risks, but potentially also opportunities for deals.</p>' +
     '<a id="freeExplore" href="#INTRO"> BEGIN &nbsp;&nbsp; &#8595; </a>',
   subtitle: "",
   byline: "",
@@ -18,12 +18,12 @@ var config = {
   chapters: [
     {
       id: "INTRO",
-      alignment: "left",
+      alignment: "center",
       hidden: false,
       title: "Global Conflicts",
       image: "",
       description:
-        "Donald Trump will inherit a world on edge when he returns to the U.S. presidency. Whether his policies will mean more war or deal-making is hard to foresee. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
+        "In unsettled times, Donald Trump’s return to the White House looks set to shake things up further. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
         "<div class='spacer'></div>" + "<strong>Or scroll down to continue. &#8595;</strong>",
       location: {
         center: [0, 0],
@@ -34,7 +34,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
-      callback: "",
+      callback: "enableFreetime",
       onChapterEnter: [
        
       ],
@@ -49,7 +49,7 @@ var config = {
       title: "Syria",
       image: "",
       description:
-        "The murderous Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet after its bloody civil war. But plenty could go wrong." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>',
+        "The Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet. But after years of bloody civil war, it faces huge challenges and plenty could go wrong." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [38.41918, 35.04736],
         zoom: 6.5,
@@ -59,7 +59,7 @@ var config = {
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
-      callback: "",
+      callback: "disableFreetime",
       onChapterEnter: [
 
       ],
@@ -74,7 +74,7 @@ var config = {
       title: "Sudan",
       image: "",
       description:
-        "The war in Sudan is killing, uprooting and starving more people than any other. If nothing is done, a violent fracture with reverberations throughout the region seems increasingly likely. Ending the conflict needs to be a higher priority for outside powers." +
+        "The war in Sudan is uprooting and starving more people than any other. If nothing is done, a violent fracture with reverberations throughout the region seems increasingly likely. Ending the conflict needs to be a higher priority for outside powers." +
         '<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#sudan" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [35.08351, 32.23019],
@@ -104,7 +104,7 @@ var config = {
       title: "Ukraine and European Security",
       image: "",
       description:
-        "Trump says he’ll end the Ukraine war through talks with Russian President Vladimir Putin. But a viable peace deal is hard to envision – and, no matter what happens, Europe faces an uncertain future caught between Moscow and an unpredictable Washington." +
+        "Trump says he’ll end the Ukraine war through negotiations with Russian President Vladimir Putin. Talks are worth trying but it is hard to see a path to a sustainable deal – and, no matter what happens, Europe faces an uncertain future caught between Moscow and an unpredictable Washington." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#ukraine" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -126,12 +126,12 @@ var config = {
     },
     {
       id: "ISRPAL",
-      alignment: "center",
+      alignment: "left",
       hidden: false,
       title: "Israel-Palestine",
       image: "",
       description:
-        "Israel’s post-October 7 offensive, aimed at destroying Hamas, has laid waste to Gaza, with upwards of 45,000 known dead and thousands more missing. U.S. diplomatic failures have let the Israeli far right’s logic reign. It is far too plausible that the same happens in the West Bank and in the Israeli-Palestinian conflict writ large." +
+        "Israel’s post-October 7 offensive, launched in response to Hamas’s 7 October 2023 attack, has laid waste to Gaza, with upwards of 45,000 known dead and thousands more missing. A battle looms as well in the West Bank, which Israel’s far right threatens to annex." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#israel" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -158,7 +158,7 @@ var config = {
       title: "Iran vs. U.S. and Israel",
       image: "",
       description:
-        "Following Israel’s hammering of Hizbollah in Lebanon, and the Assad regime’s fall in Syria, Iran looks more vulnerable than at any time in decades. U.S. and Israeli hawks see an opportunity to hit Iranian nuclear research sites or even topple the government. A better bet would be talks aimed at defining limits to Tehran’s nuclear program." +
+        "Following Israel’s hammering of Hizbollah in Lebanon, and the Assad regime’s fall in Syria, Iran looks more vulnerable than at any time in decades. U.S. and Israeli hawks see an opportunity to hit Iranian nuclear research sites or even topple the government. A better bet would be talks to limit Tehran’s nuclear program and support for proxies." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#iran" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -189,7 +189,7 @@ var config = {
       title: "Haiti",
       image: "",
       description:
-        "Many Haitians thought a new government and the Kenya-led security mission might be able to rein in the criminal gangs running rampant in the country. Those hopes are dashed. Haiti’s government is now calling for UN peacekeepers, an idea Trump seems unlikely to embrace, though he may think again once in office.  " + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#haiti" target="_blank">&#8594; [Read more]</a>',
+        "Many Haitians thought a new government and the Kenya-led security mission might be able to rein in the criminal gangs running rampant in the country. Those hopes are dashed. Haiti’s government is now calling for UN peacekeepers, though whether such a mission is feasible or would be effective is unclear." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#haiti" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-73.33375, 18.98953],
         zoom: 7.5,
@@ -214,7 +214,7 @@ var config = {
       title: "U.S.-Mexico",
       image: "",
       description:
-        "During the U.S. presidential campaign, Trump promised to slap high tariffs on Mexican goods and send back millions of migrants. He even hinted at bombing fentanyl labs in Mexico. These are all bad ideas that would tank relations between two interdependent neighbors." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>',
+        "During the U.S. presidential campaign, Trump promised to slap high tariffs on Mexican goods and send back millions of migrants. Within his Republican party, some suggest the U.S. should bomb fentanyl labs in Mexico. Those policies would tank relations between two interdependent neighbours." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [-105.28159, 29.28666],
         zoom: 5,
@@ -239,7 +239,7 @@ var config = {
       title: "Myanmar",
       image: "",
       description:
-        "Midway through 2024, Myanmar’s military regime appeared to be teetering, with insurgents having taken control of many areas along the country’s borders. China has since thrown the junta a lifeline. But elections the regime plans for 2025 offer no vision for a better future and instead promise more bloodshed." +
+        "Midway through 2024, Myanmar’s military regime appeared to be teetering, as rebels seized control of many areas along the country’s borders. China has since thrown the junta a lifeline. But elections planned for 2025 offer no vision for a better future and instead promise more bloodshed." +
         '<div class="spacer"></div>' +
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#myanmar" target="_blank">&#8594; [Read more]</a>',
       location: {
@@ -263,7 +263,7 @@ var config = {
       id: "KOREA",
       alignment: "left",
       hidden: false,
-      title: "Korean Penninsula",
+      title: "Korean Peninsula",
       image: "",
       description:
         "The year 2024 began with a surprising speech from Kim Jong-un, in which he dropped North Korea’s decades-old policy of peaceful unification with South Korea. It ended with Pyongyang ratifying a mutual defence pact with Moscow and, in Seoul, a botched coup attempt by President Yoon Suk-yeol. The peninsula is set for an edgy 2025." + '<div class="spacer"></div>' +
@@ -292,7 +292,7 @@ var config = {
       title: "China-U.S.",
       image: "",
       description:
-        "Competition between the world’s two foremost powers continues to intensify. Tariffs, Taiwan and Chinese ambitions in the South China Sea are among the potential flashpoints with Trump entering office. Meanwhile, the U.S. president-elect’s dim view of alliances rattles Asia almost as much as it does Europe." + '<div class="spacer"></div>' + 
+        "Competition between the world’s two foremost powers continues to intensify. Tariffs, Taiwan and Chinese ambitions in the South China Sea are among the potential flashpoints. Trump’s dim view of alliances rattles Asia almost as much as it does Europe." + '<div class="spacer"></div>' + 
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#china" target="_blank">&#8594; [Read more]</a>',
       location: {
         center: [118.50520, 24.05881],
