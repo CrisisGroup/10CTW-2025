@@ -49,7 +49,7 @@ var config = {
       title: "Syria",
       image: "",
       description:
-        "The Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet. But after years of bloody civil war, it faces huge challenges and plenty could go wrong." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>',
+        "The Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet. But after years of bloody civil war, it faces huge challenges and plenty could go wrong." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/syria.jpg" /><p class="photocaption">A man rides a motorbike with children holding up flags adopted by the new Syrian rulers, after Syria’s Bashar al-Assad was ousted, in Damascus, Syria, December 15, 2024. REUTERS/Ammar Awad</p>',
       location: {
         center: [38.41918, 35.04736],
         zoom: 6.5,
@@ -104,9 +104,9 @@ var config = {
       title: "Ukraine and European Security",
       image: "",
       description:
-        "Trump says he’ll end the Ukraine war through negotiations with Russian President Vladimir Putin. Talks are worth trying but it is hard to see a path to a sustainable deal – and, no matter what happens, Europe faces an uncertain future caught between Moscow and an unpredictable Washington." +
+        "Trump says he will end the Ukraine war through negotiations with Russian President Vladimir Putin. Talks are worth trying but it is hard to see a path to a sustainable deal – and, no matter what happens, Europe faces an uncertain future caught between Moscow and an unpredictable Washington." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#ukraine" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#ukraine" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/ukraine.jpg" /><p class="photocaption">Ukrainian Armed Forces take part in a tactical medicine exercise, amid Russia’s attack on Ukraine, in Donetsk region, Ukraine December 14, 2024. Oleg Petrasiuk/Press Service of the 24th King Danylo Separate Mechanized Brigade of the Ukrainian Armed Forces/Handout via REUTERS</p>',
       location: {
         center: [30.99252, 51.17468],
         zoom: 5,
@@ -160,7 +160,7 @@ var config = {
       description:
         "Following Israel’s hammering of Hizbollah in Lebanon, and the Assad regime’s fall in Syria, Iran looks more vulnerable than at any time in decades. U.S. and Israeli hawks see an opportunity to hit Iranian nuclear research sites or even topple the government. A better bet would be talks to limit Tehran’s nuclear program and support for proxies." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#iran" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#iran" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/iran.jpg" /><p class="photocaption">Iranian President Masoud Pezeshkian and military commanders watch as military equipment passes by during the annual military parade in Tehran, Iran, September 21, 2024. Majid Asgaripour/WANA (West Asia News Agency) via REUTERS</p>',
       location: {
         center: [-72.277873, 18.57867],
         zoom: 16.5,
@@ -241,7 +241,7 @@ var config = {
       description:
         "Midway through 2024, Myanmar’s military regime appeared to be teetering, as rebels seized control of many areas along the country’s borders. China has since thrown the junta a lifeline. But elections planned for 2025 offer no vision for a better future and instead promise more bloodshed." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#myanmar" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#myanmar" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/myanmar.jpg" /><p class="photocaption">A CNA soldier surveys the damage in a building in Thantlang town in September 2024. The neglected Chin State in Myanmar has been the site of fierce clashes between the military junta and local resistance groups. Crisis Group / Richard Horsey</p>',
       location: {
         center: [96.19656, 21.07645],
         zoom: 4.6,
@@ -267,7 +267,7 @@ var config = {
       image: "",
       description:
         "The year 2024 began with a surprising speech from Kim Jong-un, in which he dropped North Korea’s decades-old policy of peaceful unification with South Korea. It ended with Pyongyang ratifying a mutual defence pact with Moscow and, in Seoul, a botched coup attempt by President Yoon Suk-yeol. The peninsula is set for an edgy 2025." + '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#korea" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#korea" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/korea.jpg" /><p class="photocaption">People watch a TV broadcasting a news report on North Korea firing missiles that flew 400 km after lifting off at around 7:30 a.m. from Sariwon, just south of the capital Pyongyang, at a railway station in Seoul, South Korea, November 5, 2024. REUTERS/Kim Hong-Ji</p>',
       location: {
         center: [126.09752, 37.75520],
         zoom: 5.5,
