@@ -253,6 +253,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "rus_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "ukraine_border",
           duration: 2000,
           opacity: 1,
@@ -276,6 +281,11 @@ var config = {
         },
         {
           layer: "kyiv_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "rus_label",
           duration: 2000,
           opacity: 0,
         },
