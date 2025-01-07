@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5le6q8b006401qofk1bcn62",
+  style: "mapbox://styles/daltonwb/cm5mjs88l009901qod1e2feul",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -225,7 +225,7 @@ var config = {
       description:
         "Trump says he’ll end the Ukraine war through negotiations with Russian President Vladimir Putin. Talks are worth trying but it is hard to see a path to a sustainable deal. Meanwhile, Putin may be tempted to test Trump’s commitment to European allies – creating new risks of confrontation and escalation." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#ukraine" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/ukraine.jpg" /><p class="photocaption">Ukrainian Armed Forces take part in a tactical medicine exercise, amid Russia’s attack on Ukraine, in Donetsk region, Ukraine December 14, 2024. Oleg Petrasiuk/Press Service of the 24th King Danylo Separate Mechanized Brigade of the Ukrainian Armed Forces/Handout via REUTERS</p>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#ukraine" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/ukraine.jpg" /><p class="photocaption">Ukrainian Armed Forces take part in a tactical medicine exercise, amid Russia’s attack on Ukraine, in Donetsk region, Ukraine December 14, 2024. Oleg Petrasiuk / Press Service of the 24th King Danylo Separate Mechanized Brigade of the Ukrainian Armed Forces / Handout via REUTERS</p>',
       location: {
         center: [30.99252, 51.17468],
         zoom: 5,
@@ -369,7 +369,7 @@ var config = {
       description:
         "Following Israel’s hammering of Hizbollah in Lebanon, and the Assad regime’s fall in Syria, Iran looks more vulnerable than at any time in decades. While U.S. and Israeli hawks push for strikes on Iranian nuclear facilities or even regime change, talks to limit Tehran’s nuclear program and support for proxies offer a better way forward." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#iran" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/iran.jpg" /><p class="photocaption">Iranian President Masoud Pezeshkian and military commanders watch as military equipment passes by during the annual military parade in Tehran, Iran, September 21, 2024. Majid Asgaripour/WANA (West Asia News Agency) via REUTERS</p>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#iran" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/iran.jpg" /><p class="photocaption">Iranian President Masoud Pezeshkian and military commanders watch as military equipment passes by during the annual military parade in Tehran, Iran, September 21, 2024. Majid Asgaripour / WANA (West Asia News Agency) via REUTERS</p>',
       location: {
         center: [-72.277873, 18.57867],
         zoom: 16.5,
@@ -598,7 +598,7 @@ var config = {
       image: "",
       description:
         "2024 began with Kim Jong-un abandoning North Korea’s decades-old policy of peaceful unification with South Korea. It ended with Pyongyang ratifying a mutual defence pact with Moscow and President Yoon Suk-yeol attempting a coup in Seoul. Trump could make a new push on nuclear diplomacy, but negotiations would be tougher than during his first term. The peninsula is set for a difficult 2025." + '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#korea" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/korea.jpg" /><p class="photocaption">People watch a TV broadcasting a news report on North Korea firing missiles that flew 400 km after lifting off at around 7:30 a.m. from Sariwon, just south of the capital Pyongyang, at a railway station in Seoul, South Korea, November 5, 2024. REUTERS/Kim Hong-Ji</p>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#korea" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/korea.jpg" /><p class="photocaption">People watch a TV broadcasting a news report on North Korea firing missiles that flew 400 km after lifting off at around 7:30 a.m. from Sariwon, just south of the capital Pyongyang, at a railway station in Seoul, South Korea, November 5, 2024. REUTERS / Kim Hong-Ji</p>',
       location: {
         center: [126.09752, 37.75520],
         zoom: 5.5,
