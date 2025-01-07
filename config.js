@@ -722,7 +722,7 @@ var config = {
       image: "",
       description:
         "Competition between the world’s two major powers continues to intensify. Tariffs, Taiwan and Chinese ambitions in the South China Sea are among the potential flashpoints. Trump’s scepticism toward alliances unsettles Asia almost as much as it does Europe." + '<div class="spacer"></div>' + 
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#china" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#china" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/china.jpg" /><p class="photocaption">Taiwanese navy Kuang Hua VI-class missile boats move within the harbour of Keelung, Taiwan October 14, 2024. REUTERS / Tyrone Siu</p>',
       location: {
         center: [113.41247, 13.11950],
         zoom: 4.5,
