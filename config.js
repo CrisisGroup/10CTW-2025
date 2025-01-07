@@ -23,7 +23,7 @@ var config = {
       title: "Global Conflicts",
       image: "",
       description:
-        "In unsettled times, Donald Trump’s return to the White House looks set to shake things up further. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
+        "In unsettled times, Donald Trump’s return to the White House looks set to shake things up further. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong style='color: rgba(255, 255, 255, .8)'>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
         "<div class='spacer'></div>" + "<strong>Or scroll down to continue. &#8595;</strong>",
       location: {
         center: [-80.14862, 30.91766],
