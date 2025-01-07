@@ -100,9 +100,11 @@
 	<div id='isrlegend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
-				<div><span style='background-color: #6399ae; border: solid 1px #cddee5; border-radius: 15px;'></span>Open crossings
+				<div><span style='background-color: #c58185; border: solid 1px #cb6168; border-radius: 15px;'></span>Areas A, B and C
 				</div>
-				<div><span style='background-color: #a4343a; border: solid 1px #db9a9d; border-radius: 15px;'></span>Closed crossings
+				<div><span style='background-color: #792a2f; border: solid 1px #db9a9d; border-radius: 15px;'></span>Palestine
+				</div>
+				<div><span style='background-color: #290d0e; border: solid 1px #db9a9d; border-radius: 15px;'></span>Israel
 				</div>
 			</li>
 		</ul>
@@ -111,13 +113,7 @@
 	<div id='afrlegend' class='legend blackshadow left-legend'>
 		<ul class='legend-ul'>
 			<li>
-				<div><span style='background-color: #6399ae; border: solid 1px #9c9ea0; border-radius: 15px;'></span>UN peacekeeping
-					operations
-				</div>
-				<div><span style='background-color: #007367; border: solid 1px #9c9ea0; border-radius: 15px;'></span>AU peace support
-					operations
-				</div>
-				<div><span style='background-color: #fdb71c; border: solid 1px #9c9ea0; border-radius: 15px;'></span>Sub-regional missions
+				<div><span style='background-color: rgb(164, 52, 58, .75); border: solid 1px #db9a9d; border-radius: 30px;'></span>Total refugees
 				</div>
 			</li>
 		</ul>
@@ -4264,20 +4260,15 @@
 					var chapter = config.chapters.find(chap => chap.id === response.element.id);
 					var chapterid = chapter.id;
 
-					if (chapterid == "INTRO") {
+					if (chapterid == "ISRPAL") {
 						$("#isrlegend").show("slow");
 					} else
 						$("#isrlegend").hide("fast");
 
-					if (chapterid == "AFRICA") {
+					if (chapterid == "SUDAN") {
 						$("#afrlegend").show("slow");
 					} else
 						$("#afrlegend").hide("fast");
-
-					if (chapterid == "HAITI") {
-						$("#haiti-legend").show("slow");
-					} else
-						$("#haiti-legend").hide("fast");
 
 					response.element.classList.add('active');
 

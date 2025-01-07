@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5mosset00ai01qp71wtdo9t",
+  style: "mapbox://styles/daltonwb/cm5mujk9100bt01qp7acy1jkj",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -200,6 +200,16 @@ var config = {
       ],
       onChapterExit: [
         {
+          layer: "refugee_data",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "refugee_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
           layer: "khartoum_dot",
           duration: 2000,
           opacity: 0,
@@ -361,6 +371,11 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "ip_country_labels",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
@@ -375,6 +390,11 @@ var config = {
         },
         {
           layer: "israel",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "ip_country_labels",
           duration: 2000,
           opacity: 0,
         },
@@ -466,7 +486,7 @@ var config = {
       title: "Haiti",
       image: "",
       description:
-        "Many Haitians hoped a new government and a Kenya-led security mission could rein in the gangs wreaking havoc in their country. Those hopes have now faded. Haiti’s government is calling for UN peacekeepers though whether such a mission is feasible or would be effective is unclear." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#haiti" target="_blank">&#8594; [Read more]</a>',
+        "Many Haitians hoped a new government and a Kenya-led security mission could rein in the gangs wreaking havoc in their country. Those hopes have now faded. Haiti’s government is calling for UN peacekeepers though whether such a mission is feasible or would be effective is unclear." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#haiti" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/haiti.jpg" /><p class="photocaption">Members of the second contingent of Kenyan police disembark after arriving in the Caribbean country as part of a peacekeeping mission, in Port-au-Prince, Haiti 16 July, 2024. REUTERS / Ralph Tedy Erol</p>',
       location: {
         center: [-73.33375, 18.98953],
         zoom: 7.5,
@@ -519,7 +539,7 @@ var config = {
       title: "U.S.-Mexico",
       image: "",
       description:
-        "During his campaign, Trump promised to slap high tariffs on Mexican goods and deport millions of migrants. Within his Republican party, some suggest the U.S. should unilaterally bomb fentanyl labs in Mexico. Those policies would tank relations between the two countries, whose economies and security depend on cooperation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>',
+        "During his campaign, Trump promised to slap high tariffs on Mexican goods and deport millions of migrants. Within his Republican party, some suggest the U.S. should unilaterally bomb fentanyl labs in Mexico. Those policies would tank relations between the two countries, whose economies and security depend on cooperation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/mexico.jpg" /><p class="photocaption">Republican presidential candidate and former U.S. President Donald Trump speaks with Texas Governor Greg Abbott during a visit at the U.S.-Mexico border at Eagle Pass, Texas, as seen from Piedras Negras, Mexico, February 29, 2024. REUTERS / Go Nakamura</p>',
       location: {
         center: [-107.26147, 28.07947],
         zoom: 4,
@@ -537,6 +557,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "US",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "road-draw-line",
           duration: 2000,
           opacity: 1,
@@ -545,6 +570,11 @@ var config = {
       onChapterExit: [
         {
           layer: "us_mex_labels",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "US",
           duration: 2000,
           opacity: 0,
         },
@@ -631,6 +661,11 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
+          layer: "kor_cty_labels",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "rok",
           duration: 2000,
           opacity: 1,
@@ -652,6 +687,11 @@ var config = {
         },
       ],
       onChapterExit: [
+        {
+          layer: "kor_cty_labels",
+          duration: 2000,
+          opacity: 0,
+        },
         {
           layer: "rok",
           duration: 2000,
@@ -684,9 +724,9 @@ var config = {
         "Competition between the world’s two major powers continues to intensify. Tariffs, Taiwan and Chinese ambitions in the South China Sea are among the potential flashpoints. Trump’s scepticism toward alliances unsettles Asia almost as much as it does Europe." + '<div class="spacer"></div>' + 
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#china" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [113.21541, 13.31267],
-        zoom: 6.1,
-        pitch: 0,
+        center: [113.41247, 13.11950],
+        zoom: 4.5,
+        pitch: 16,
         bearing: -70.40,
         speed: .7
       },
