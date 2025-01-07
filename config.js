@@ -491,9 +491,9 @@ var config = {
       description:
         "During his campaign, Trump promised to slap high tariffs on Mexican goods and deport millions of migrants. Within his Republican party, some suggest the U.S. should unilaterally bomb fentanyl labs in Mexico. Those policies would tank relations between the two countries, whose economies and security depend on cooperation." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#mexico" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [-105.28159, 29.28666],
-        zoom: 4.5,
-        pitch: 36,
+        center: [-107.26147, 28.07947],
+        zoom: 4,
+        pitch: 10,
         bearing: 0,
         speed: 0.4,
       },
