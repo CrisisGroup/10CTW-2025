@@ -646,7 +646,7 @@ var config = {
     },
     {
       id: "TAIWAN",
-      alignment: "center",
+      alignment: "left",
       hidden: false,
       title: "China-U.S.",
       image: "",
@@ -654,15 +654,11 @@ var config = {
         "Competition between the world’s two major powers continues to intensify. Tariffs, Taiwan and Chinese ambitions in the South China Sea are among the potential flashpoints. Trump’s scepticism toward alliances unsettles Asia almost as much as it does Europe." + '<div class="spacer"></div>' + 
         '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#china" target="_blank">&#8594; [Read more]</a>',
       location: {
-        center: [118.50520, 24.05881],
-        zoom: 6,
+        center: [113.21541, 13.31267],
+        zoom: 6.1,
         pitch: 0,
-        bearing: 0,
-        speed: 1,
-        bbox: [
-        [98.39269, 3.74901],
-        [139.23495, 27.26249]
-      ]
+        bearing: -70.40,
+        speed: .7
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
