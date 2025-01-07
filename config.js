@@ -14,7 +14,7 @@ var config = {
   subtitle: "",
   byline: "",
   footer:
-    '<h4>Credits</h4><strong>Lead Contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualizations & Design</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Chris Toensing<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
+    '<h4>Credits</h4><strong>Lead Contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualisations</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Chris Toensing<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a></div>',
   chapters: [
     {
       id: "INTRO",
@@ -72,7 +72,7 @@ var config = {
       title: "Syria",
       image: "",
       description:
-        "The Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet. But after years of bloody civil war, plenty could go wrong. For Syria’s new authorities, preventing disorder and allowing for an inclusive transition are priorities. Foreign powers should loosen sanctions that obstruct aid and investment." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/syria.jpg" /><p class="photocaption">A man rides a motorbike with children holding up flags adopted by the new Syrian rulers, after Syria’s Bashar al-Assad was ousted, in Damascus, Syria, December 15, 2024. REUTERS/Ammar Awad</p>',
+        "The Assad regime is gone after 54 years in power. Syria has a chance to get back on its feet. But after years of bloody civil war, plenty could go wrong. For Syria’s new authorities, preventing disorder and allowing for an inclusive transition are priorities. Foreign powers should loosen sanctions that obstruct aid and investment." + '<div class="spacer"></div>' + '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#syria" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/syria.jpg" /><p class="photocaption">A man rides a motorbike with children holding up flags adopted by the new Syrian rulers, after Syria’s Bashar al-Assad was ousted, in Damascus, Syria, December 15, 2024. REUTERS / Ammar Awad</p>',
       location: {
         center: [38.41918, 35.04736],
         zoom: 6.5,
