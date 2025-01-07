@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5mjs88l009901qod1e2feul",
+  style: "mapbox://styles/daltonwb/cm5mosset00ai01qp71wtdo9t",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -23,8 +23,8 @@ var config = {
       title: "Global Conflicts",
       image: "",
       description:
-        "In unsettled times, Donald Trump’s return to the White House looks set to shake things up further. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong style='color: rgba(255, 255, 255, .8)'>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
-        "<div class='spacer'></div>" + "<strong>Or scroll down to continue. &#8595;</strong>",
+        "In unsettled times, Donald Trump’s return to the White House looks set to shake things up further. Here are the International Crisis Group’s Ten Conflicts to Watch in 2025." + "<div class='spacer'></div>" + "<strong style='color: #c88589;'>Rotate the globe by clicking and dragging your pointer, or use the controls in the top right.</strong>" +
+        "<div class='spacer'></div>" + "<strong style='color: #c88589;'>Or scroll down to continue. &#8595;</strong>",
       location: {
         center: [-80.14862, 30.91766],
         zoom: 3,
@@ -154,14 +154,24 @@ var config = {
         bearing: 0,
         speed: 0.7,
         bbox: [
-          [14.79583, 4.94522],
-          [46.99699, 24.28207]
+          [10.75962, 6.13743],
+    [38.55168, 22.60774]
         ]
       },
       mapAnimation: "flyTo",
       rotateAnimation: false,
       callback: "",
       onChapterEnter: [
+        {
+          layer: "refugee_data",
+          duration: 2000,
+          opacity: .7,
+        },
+        {
+          layer: "refugee_label",
+          duration: 2000,
+          opacity: 1,
+        },
         {
           layer: "khartoum_dot",
           duration: 2000,
@@ -328,8 +338,8 @@ var config = {
         bearing: 0,
         speed: 1,
         bbox: [
-          [33.12414, 29.28568],
-          [37.01931, 33.53993]
+          [33.42164, 30.88622],
+          [36.31639, 32.78341]
       ]
       },
       mapAnimation: "flyTo",
@@ -346,6 +356,11 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "israel",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
@@ -355,6 +370,11 @@ var config = {
         },
         {
           layer: "west_bank_areas",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "israel",
           duration: 2000,
           opacity: 0,
         },
