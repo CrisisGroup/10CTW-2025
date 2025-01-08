@@ -146,7 +146,7 @@ var config = {
       image: "",
       description:
         "The war in Sudan is uprooting and starving more people than any other conflict today. If nothing is done, a violent fracture with reverberations throughout the region seems increasingly likely. Outside actors have fuelled the war. Now they need to put a higher priority on ending it." +
-        '<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#sudan" target="_blank">&#8594; [Read more]</a>',
+        '<br /><br /><a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#sudan" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/sudan.jpg" /><p class="photocaption">People wait for food to be distributed at the Adré provisional reception site. Fleeing the war ravaging neighbouring Sudan, more than 930,000 people have taken refuge in eastern Chad since April 2023. Ouaddaï, Chad. March 2024. Crisis Group / Charles Bouessel. </p>',
       location: {
         center: [35.08351, 32.23019],
         zoom: 7.5,
@@ -340,7 +340,7 @@ var config = {
       description:
         "Israel’s offensive on Gaza, launched in response to Hamas’ 7 October 2023 attack, has laid waste to the strip, with upward of 45,000 known dead and thousands more missing. A battle looms as well in the West Bank, which Israel may be poised to annex." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#israel" target="_blank">&#8594; [Read more]</a>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#israel" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/palestine.jpg" /><p class="photocaption">Palestinian inspect damage at the site of an Israeli strike on a house, amid the Israel-Hamas conflict, at the Nuseirat refugee camp in the central Gaza Strip. December, 2024. REUTERS / Ramadan Abed</p>',
       location: {
         center: [95.588857, 22.595168],
         zoom: 3,
@@ -499,6 +499,16 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
+          layer: "port-au-prince_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "port-au-prince_dot",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "Haiti",
           duration: 2000,
           opacity: 1,
@@ -527,6 +537,16 @@ var config = {
         },
         {
           layer: "ayiti",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "port-au-prince_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "port-au-prince_dot",
           duration: 2000,
           opacity: 0,
         },
@@ -621,6 +641,16 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "Naypyidaw_label",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "Naypyidaw_dot",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
@@ -635,6 +665,16 @@ var config = {
         },
         {
           layer: "myanmar_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "Naypyidaw_label",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "Naypyidaw_dot",
           duration: 2000,
           opacity: 0,
         },
