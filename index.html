@@ -101,18 +101,18 @@
 		<ul class='legend-ul'>
 			<li>
 				<div><span
-						style='background-color: #c58185; border: solid 1px #cb6168; border-radius: 15px;'></span>Areas
+						style='background-color: #a4343a; border: solid 1px #cb6168; border-radius: 15px;'></span>Areas
 					A and B
-				</div>
-				<div><span
-						style='background-color: #792a2f; border: solid 1px #db9a9d; border-radius: 15px;'></span>Area C
 				</div>
 				<div><span
 						style='background-color: #a4343a; border: solid 1px #db9a9d; border-radius: 15px;'></span>Gaza
 					Strip
 				</div>
 				<div><span
-						style='background-color: #290d0e; border: solid 1px #db9a9d; border-radius: 15px;'></span>Israel
+						style='background-color: #792a2f; border: solid 1px #db9a9d; border-radius: 15px;'></span>Area C
+				</div>
+				<div><span
+						style='background-color: #6d2226; border: solid 1px #db9a9d; border-radius: 15px;'></span>Israel
 				</div>
 				<div class="photocaption">Area A (18%): Administered by Palestinian Authority. | Area B (22%):
 					Administered by Palestinian Authority, shared security control with Israel. | Area C (60%):
@@ -257,15 +257,15 @@
 		}
 
 		if (config.footer) {
-    var footerText = document.createElement('p');
+			var footerText = document.createElement('p');
 
-    // Add your custom markup here
-    var customMarkup = '<a style="border-top: solid 2px #a4343a; width: 100%;" href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>';
-    var footerContent = config.footer + ' ' + customMarkup; // Combine with existing footer content
+			// Add your custom markup here
+			var customMarkup = '<a style="border-top: solid 2px #a4343a; width: 100%;" href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>';
+			var footerContent = config.footer + ' ' + customMarkup; // Combine with existing footer content
 
-    footerText.innerHTML = footerContent; // Assign the combined content
-    footer.appendChild(footerText);
-}
+			footerText.innerHTML = footerContent; // Assign the combined content
+			footer.appendChild(footerText);
+		}
 
 		if (footer.innerText.length > 0) {
 			footer.classList.add(config.theme);

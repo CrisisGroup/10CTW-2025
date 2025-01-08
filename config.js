@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5o0eub000d601pk8gyqd3db",
+  style: "mapbox://styles/daltonwb/cm5o1253w00ea01qf6n972tpi",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -257,12 +257,12 @@ var config = {
         {
           layer: "chad",
           duration: 2000,
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: "chad_label",
           duration: 2000,
-          opacity: 1,
+          opacity: 0,
         },
       ],
     },
@@ -404,7 +404,7 @@ var config = {
         {
           layer: "palestine",
           duration: 2000,
-          opacity: 0.7,
+          opacity: 1,
         },
         {
           layer: "west_bank_areas",
@@ -887,11 +887,11 @@ var config = {
       description:
         'These are Crisis Group’s ten conflicts to watch in 2025. <a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025" target="_blank">&#8594; Read the full article here.</a>',
       location: {
-        center: [0, 0],
-        zoom: 2,
-        pitch: 0,
-        bearing: 0,
-        speed: 0.4,
+        center: [-80.14862, 30.91766],
+        zoom: 3,
+        pitch: 12,
+        bearing: 21,
+        speed: 0.7,
       },
       mapAnimation: "flyTo",
       rotateAnimation: true,
