@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5o2g7mu009001sdhh9j6hsq",
+  style: "mapbox://styles/daltonwb/cm5o2x0jx009301sdagz9g3g3",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -288,6 +288,11 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
+          layer: "crimea",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "kyiv_dot",
           duration: 2000,
           opacity: 1,
@@ -329,6 +334,11 @@ var config = {
         },
       ],
       onChapterExit: [
+        {
+          layer: "crimea",
+          duration: 2000,
+          opacity: 0,
+        },
         {
           layer: "kyiv_dot",
           duration: 2000,
