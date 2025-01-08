@@ -667,6 +667,7 @@ ul {
   color: #fff;
   text-shadow: none;
   font-size: 1.25em;
+  max-width: 300px;
 }
 
 #bosnia-legend {

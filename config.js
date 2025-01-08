@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5mzcblh00cx01s34e7hghyw",
+  style: "mapbox://styles/daltonwb/cm5nu94cw001k01sbgklq7752",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -197,6 +197,16 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "chad",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "chad_label",
+          duration: 2000,
+          opacity: 1,
+        },
       ],
       onChapterExit: [
         {
@@ -233,6 +243,16 @@ var config = {
           layer: "sudan",
           duration: 2000,
           opacity: 0,
+        },
+        {
+          layer: "chad",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "chad_label",
+          duration: 2000,
+          opacity: 1,
         },
       ],
     },
@@ -288,6 +308,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "russia_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "russia",
           duration: 2000,
           opacity: 1,
@@ -321,6 +346,11 @@ var config = {
         },
         {
           layer: "ukraine",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "russia_border",
           duration: 2000,
           opacity: 0,
         },
@@ -577,6 +607,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "US_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "US",
           duration: 2000,
           opacity: 1,
@@ -590,6 +625,11 @@ var config = {
       onChapterExit: [
         {
           layer: "us_mex_labels",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "US_border",
           duration: 2000,
           opacity: 0,
         },
@@ -706,7 +746,17 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "rok_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "rok",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
+          layer: "dprk_border",
           duration: 2000,
           opacity: 1,
         },
@@ -733,7 +783,17 @@ var config = {
           opacity: 0,
         },
         {
+          layer: "rok_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "rok",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "dprk_border",
           duration: 2000,
           opacity: 0,
         },
