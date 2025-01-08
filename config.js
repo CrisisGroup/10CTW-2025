@@ -884,6 +884,21 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "layer-with-pulsing-dot",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "CONFLICT_LABELS",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
         {
@@ -927,18 +942,14 @@ var config = {
           duration: 2000,
           opacity: 1,
         },
+        {
+          layer: "road-draw-line",
+          duration: 2000,
+          opacity: 0,
+        },
       ],
       onChapterExit: [
-        {
-          layer: "layer-with-pulsing-dot",
-          duration: 2000,
-          opacity: 0,
-        },
-        {
-          layer: "CONFLICT_LABELS",
-          duration: 2000,
-          opacity: 0,
-        },
+        
       ],
     },
   ],
