@@ -14,7 +14,7 @@ var config = {
   subtitle: "",
   byline: "",
   footer:
-    '<strong>Lead contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualisations</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Chris Toensing<br /><br /><a href="https://www.crisisgroup.org" target="_blank"><img class="footer-image" src="images/30yr.png" alt="30 years" /></a>',
+    '<strong>Lead contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualisations</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Chris Toensing<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>',
   chapters: [
     {
       id: "INTRO",

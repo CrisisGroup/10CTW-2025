@@ -258,21 +258,25 @@
 
 		if (config.footer) {
 			var footerText = document.createElement('p');
-
-			// Add your custom markup here
-			var customMarkup = '<a style="border-top: solid 2px #a4343a; width: 100%;" href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>';
-			var footerContent = config.footer + ' ' + customMarkup; // Combine with existing footer content
-
-			footerText.innerHTML = footerContent; // Assign the combined content
+			var footerContent = config.footer;
+			footerText.innerHTML = footerContent;
 			footer.appendChild(footerText);
 		}
 
 		if (footer.innerText.length > 0) {
-			footer.classList.add(config.theme);
-			footer.setAttribute('id', 'footer');
-			story.appendChild(footer);
-		}
+    footer.classList.add(config.theme);
+    footer.setAttribute('id', 'footer');
 
+    // Create and insert the image above the footer
+    var footerImage = document.createElement('img');
+    footerImage.src = 'images/30yr.png'; // Replace with your image path
+    footerImage.alt = 'Footer Image'; // Accessibility text
+    footerImage.classList.add('footer-30yr'); // Add a class for styling
+
+    // Append the image and footer to the story element
+    story.appendChild(footerImage); // Add image above the footer
+    story.appendChild(footer); // Add the footer
+}
 		mapboxgl.accessToken = config.accessToken;
 
 		const transformRequest = (url) => {
@@ -4244,7 +4248,7 @@
 				map.setPaintProperty("road-draw-line", "line-gradient", [
 					"step",
 					["line-progress"],
-					"#a33339",
+					"#dbaeb0",
 					animationPhase,
 					"rgba(0, 0, 0, 0)"
 				]);

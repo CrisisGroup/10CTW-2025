@@ -346,24 +346,17 @@ h5 {
   line-height: 1.5;
   max-width: 100%;
   width: 100%;
-  border-top: solid 2px #a4343a;
   padding: 20px 2vh;
   border-radius: 0;
   align-self: flex-start;
 }
 
-#footer img.footer-image {
+.footer-30yr {
+  width: 100%;
   height: auto;
-  margin-left: 20px;
-  display: flex;
-  float: right;
-  margin-top: -237px;
-}
-
-@media (max-width: 425px) {
-  #footer img.footer-image {
-    display: none;
-  }
+  padding: 0;
+  z-index: 6;
+  position: relative;
 }
 
 #footer h4 {
