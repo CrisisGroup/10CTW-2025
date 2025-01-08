@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5nx6yhn00e701s32t7y1mno",
+  style: "mapbox://styles/daltonwb/cm5o0eub000d601pk8gyqd3db",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -14,7 +14,7 @@ var config = {
   subtitle: "",
   byline: "",
   footer:
-    '<strong>Lead Contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualisations</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Chris Toensing<br /><br /><a href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a><a href="https://www.crisisgroup.org" target="_blank"><img class="footer-image" src="images/30yr.png" alt="30 years" /></a>',
+    '<strong>Lead contributors</strong>: Comfort Ero and Richard Atwood<br /><strong>Visualisations</strong>: Paul Franz, Claire Boccon-Gibod and Jorge Gutierrez Lucena <br /><strong>Support</strong>: Chris Toensing<br /><br /><a href="https://www.crisisgroup.org" target="_blank"><img class="footer-image" src="images/30yr.png" alt="30 years" /></a>',
   chapters: [
     {
       id: "INTRO",
@@ -397,6 +397,11 @@ var config = {
       callback: "",
       onChapterEnter: [
         {
+          layer: "palestine2",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "palestine",
           duration: 2000,
           opacity: 0.7,
@@ -418,6 +423,11 @@ var config = {
         },
       ],
       onChapterExit: [
+        {
+          layer: "palestine2",
+          duration: 2000,
+          opacity: 0,
+        },
         {
           layer: "palestine",
           duration: 2000,

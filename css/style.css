@@ -322,7 +322,8 @@ h5 {
 }
 
 #footer {
-  width: 100%; /* Full width of the page */
+  width: 100%;
+  /* Full width of the page */
   min-height: 5vh;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -331,8 +332,10 @@ h5 {
   z-index: 5;
   background-color: #000;
   display: flex;
-  justify-content: space-between; /* Space between text and image */
-  align-items: flex-start; /* Aligns items at the top */
+  justify-content: space-between;
+  /* Space between text and image */
+  align-items: flex-start;
+  /* Aligns items at the top */
   border: none;
   border-radius: 0;
   margin: 0;
@@ -341,21 +344,20 @@ h5 {
 #footer p {
   margin: 0;
   line-height: 1.5;
-  max-width: 100%; /* Adjust to keep text from stretching too far */
+  max-width: 100%;
   width: 100%;
   border-top: solid 2px #a4343a;
-  border-bottom: solid 2px #a4343a;
-  padding: 20px 2vh; /* Consistent padding */
+  padding: 20px 2vh;
   border-radius: 0;
   align-self: flex-start;
 }
 
 #footer img.footer-image {
-    height: auto;
-    margin-left: 20px;
-    display: flex;
-    float: right;
-    margin-top: -120px;
+  height: auto;
+  margin-left: 20px;
+  display: flex;
+  float: right;
+  margin-top: -237px;
 }
 
 @media (max-width: 425px) {

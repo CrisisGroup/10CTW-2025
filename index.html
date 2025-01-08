@@ -257,10 +257,15 @@
 		}
 
 		if (config.footer) {
-			var footerText = document.createElement('p');
-			footerText.innerHTML = config.footer;
-			footer.appendChild(footerText);
-		}
+    var footerText = document.createElement('p');
+
+    // Add your custom markup here
+    var customMarkup = '<a style="border-top: solid 2px #a4343a; width: 100%;" href="https://www.crisisgroup.org/legal" target="_blank">Privacy Policy & Legal</a>';
+    var footerContent = config.footer + ' ' + customMarkup; // Combine with existing footer content
+
+    footerText.innerHTML = footerContent; // Assign the combined content
+    footer.appendChild(footerText);
+}
 
 		if (footer.innerText.length > 0) {
 			footer.classList.add(config.theme);
