@@ -886,7 +886,7 @@ var config = {
         },
         {
           layer: "road-draw-line",
-          duration: 2000,
+          duration: 10,
           opacity: 0,
         },
         {
@@ -944,7 +944,7 @@ var config = {
         },
         {
           layer: "road-draw-line",
-          duration: 2000,
+          duration: 10,
           opacity: 0,
         },
       ],
