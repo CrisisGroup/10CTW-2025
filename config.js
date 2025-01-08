@@ -805,7 +805,7 @@ var config = {
         {
           layer: "rok_border",
           duration: 2000,
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: "rok",
