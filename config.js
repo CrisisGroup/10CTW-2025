@@ -1,5 +1,5 @@
 var config = {
-  style: "mapbox://styles/daltonwb/cm5o2x0jx009301sdagz9g3g3",
+  style: "mapbox://styles/daltonwb/cm5o33f3e00f701qf0ibo8lun",
   accessToken:
     "pk.eyJ1IjoiZGFsdG9ud2IiLCJhIjoiOWdSSXFQSSJ9.HZyjh4g3TAAOAncwelv9Vw",
   showMarkers: false,
@@ -427,6 +427,11 @@ var config = {
           opacity: 1,
         },
         {
+          layer: "israel_border",
+          duration: 2000,
+          opacity: 1,
+        },
+        {
           layer: "ip_country_labels",
           duration: 2000,
           opacity: 1,
@@ -450,6 +455,11 @@ var config = {
         },
         {
           layer: "israel",
+          duration: 2000,
+          opacity: 0,
+        },
+        {
+          layer: "israel_border",
           duration: 2000,
           opacity: 0,
         },
