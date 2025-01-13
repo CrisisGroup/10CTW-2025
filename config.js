@@ -390,7 +390,7 @@ var config = {
       description:
         "Israel’s offensive on Gaza, launched in response to Hamas’ 7 October 2023 attack, has laid waste to the strip, with upward of 45,000 known dead and thousands more missing. A battle looms as well in the West Bank, which Israel may be poised to annex." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#israel" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/palestine.jpg" /><p class="photocaption">Palestinian inspect damage at the site of an Israeli strike on a house, amid the Israel-Hamas conflict, at the Nuseirat refugee camp in the central Gaza Strip. December, 2024. REUTERS / Ramadan Abed</p>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#israel" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/palestine.jpg" /><p class="photocaption">Palestinians inspect damage at the site of an Israeli strike on a house, amid the Israel-Hamas conflict, at the Nuseirat refugee camp in the central Gaza Strip. December, 2024. REUTERS / Ramadan Abed</p>',
       location: {
         center: [95.588857, 22.595168],
         zoom: 3,
@@ -694,7 +694,7 @@ var config = {
       description:
         "Midway through 2024, Myanmar’s military regime appeared to be teetering, as rebels seized control of many areas along the country’s borders. China has since thrown the junta a lifeline. But elections planned for 2025 offer no vision for a better future and instead promise more bloodshed." +
         '<div class="spacer"></div>' +
-        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#myanmar" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/myanmar.jpg" /><p class="photocaption">A CNA soldier surveys the damage in a building in Thantlang town in September 2024. The neglected Chin State in Myanmar has been the site of fierce clashes between the military junta and local resistance groups. Crisis Group / Richard Horsey</p>',
+        '<a href="https://www.crisisgroup.org/global/10-conflicts-watch-2025#myanmar" target="_blank">&#8594; [Read more]</a>' + '<div class="spacer"></div>' + '<img src="images/myanmar.jpg" /><p class="photocaption">A Chin National Army soldier surveys the damage in a building in Thantlang town in September 2024. The neglected Chin State in Myanmar has been the site of fierce clashes between the military junta and local resistance groups. Crisis Group / Richard Horsey</p>',
       location: {
         center: [96.19656, 21.07645],
         zoom: 4.6,
